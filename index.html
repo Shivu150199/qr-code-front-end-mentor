@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    #card{
+      background: hsl(212, 45%, 89%);
+      width:100%;
+      height:98vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card{
+      background: white;
+      min-width:13rem;
+      width:15rem;
+      padding: 1rem;
+      border-radius: 1rem;
+    }
+    .card>img{
+      width:13rem;
+      height:13rem;
+      border-radius: 1rem;
+
+
+    }
+    .card-detail{
+      margin-top:10px;
+    }
+    .card-detail>h2{
+      font-size:20px;
+      color:hsl(218, 44%, 22%);
+      font-weight:700;
+      text-align:center;
+
+    }
+    .card-detail>p{
+      font-size:15px;
+      text-align: center;
+      margin:1rem 0;
+      color:hsl(220, 15%, 55%)
+    }
+
+
+  </style>
+</head>
+<body>
+
+<section id="card" role="card">
+<div class="card">
+<img src="images/image-qr-code.png" alt="">
+<div class="card-detail">
+<h2>Improve your front-end skills by building projects</h2>
+<p> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+</div>
+
+</div>
+
+</section>
+
+
+  
+
+ 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Shivam singh</a>.
+  </div>
+</body>
+</html>
